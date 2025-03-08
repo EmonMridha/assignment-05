@@ -138,6 +138,12 @@ document.getElementById('clear-btn').addEventListener('click', function(){
     hey.innerHTML = '';
 })
 
+document.getElementById('Discover').addEventListener('click',function(){
+    window.location.href='index2.html'
+})
+
+document.getElementById('Discover').style.cursor='pointer';
+
 
 
 
