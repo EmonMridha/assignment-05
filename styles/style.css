@@ -229,7 +229,7 @@ main{
     border-radius: 8px;
 }
 
-.des{
+ol>p{
     padding: 20px;
     background-color: rgb(243, 243, 249);
     border-radius: 10px;

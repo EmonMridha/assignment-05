@@ -1,20 +1,44 @@
 document.getElementById('complete').addEventListener('click', function(){
-    alert('Board updated Successfully')
+    alert('Board updated Successfully');
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 document.getElementById('complete2').addEventListener('click', function(){
     alert('Board updated Successfully')
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 document.getElementById('complete3').addEventListener('click', function(){
     alert('Board updated Successfully')
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 document.getElementById('complete4').addEventListener('click', function(){
     alert('Board updated Successfully')
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 document.getElementById('complete5').addEventListener('click', function(){
     alert('Board updated Successfully')
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 document.getElementById('complete6').addEventListener('click', function(){
     alert('Board updated Successfully')
+    const ol =document.getElementById('parent');
+    const p = document.createElement('p');
+    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    ol.appendChild(p);
 })
 
 const var1 = document.getElementById('number');
@@ -62,5 +86,40 @@ var9.addEventListener('click',function(){
 let veri1 = document.getElementById('number2');
 
 var2.addEventListener('click',function(){
-    
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
 })
+
+var4.addEventListener('click',function(){
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
+})
+
+var6.addEventListener('click',function(){
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
+})
+
+var7.addEventListener('click',function(){
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
+})
+
+var8.addEventListener('click',function(){
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
+})
+
+var9.addEventListener('click',function(){
+    let presentNumber2 = parseInt(veri1.innerText);
+    veri1.innerText= presentNumber2 +1;
+})
+
+document.getElementById('clear-btn').addEventListener('click', function(){
+    const hey = document.getElementById('parent');
+    hey.innerHTML = '';
+})
+
+
+
+
