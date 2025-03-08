@@ -144,6 +144,16 @@ document.getElementById('Discover').addEventListener('click',function(){
 
 document.getElementById('Discover').style.cursor='pointer';
 
+document.getElementById('color-btn').addEventListener('click',function(){
+    document.body.style.backgroundColor='#' +Math.floor(Math.random()*16777215).toString(16);
+});
+
+let theDate = new Date();
+
+let date2 = theDate.toLocaleDateString();
+
+document.getElementById('the-date').textContent = date2;
+
 
 
 
