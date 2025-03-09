@@ -2,7 +2,7 @@ document.getElementById('complete').addEventListener('click', function(){
     alert('Board updated Successfully');
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Fix Mobile Button Issue at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
@@ -12,7 +12,7 @@ document.getElementById('complete2').addEventListener('click', function(){
     alert('Board updated Successfully')
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Add Pay Success Modal at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
@@ -22,7 +22,7 @@ document.getElementById('complete3').addEventListener('click', function(){
     alert('Board updated Successfully')
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Add new reaction at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
@@ -32,7 +32,7 @@ document.getElementById('complete4').addEventListener('click', function(){
     alert('Board updated Successfully')
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Fix Video Loading Issue at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
@@ -42,7 +42,7 @@ document.getElementById('complete5').addEventListener('click', function(){
     alert('Board updated Successfully')
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Integrate AI search at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
@@ -52,11 +52,12 @@ document.getElementById('complete6').addEventListener('click', function(){
     alert('Board updated Successfully')
     const ol =document.getElementById('parent');
     const p = document.createElement('p');
-    p.innerText = "You have completed the task Fix Mobile Button isse at 1:26:53 AM";
+    p.innerText = "You have completed the task Review Ami Probashi Site at 1:26:53 AM";
     ol.appendChild(p);
     this.disabled = true;
     this.style.backgroundColor= 'gray';
     this.style.color = 'white';
+    alert('congrats!!! You have completed all the current task')
 })
 
 const var1 = document.getElementById('number');
@@ -153,6 +154,9 @@ let theDate = new Date();
 let date2 = theDate.toLocaleDateString();
 
 document.getElementById('the-date').textContent = date2;
+
+
+
 
 
 
